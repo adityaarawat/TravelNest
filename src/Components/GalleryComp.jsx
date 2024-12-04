@@ -58,7 +58,6 @@ const GalleryComp = () => {
                 <a href="/Tokyo.jpg">
                     <img alt="img2" src="/Tokyo.jpg" />
                 </a>
-                ...
             </LightGallery>
         </div>
     </div>
