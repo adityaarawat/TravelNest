@@ -4,7 +4,7 @@ import FeatureDestination from '../Components/FeatureDestination'
 import Features from '../Components/Features'
 import GalleryComp from '../Components/GalleryComp'
 import Banner from '../Components/Banner'
-import Contact from '../Components/Contact'
+import Contact from '../Components/ContactComp'
 
 const Home = () => {
   return (
