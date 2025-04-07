@@ -19,7 +19,13 @@ const About = () => {
           
           </div>
           <h1 className='md:text-4xl font-bold mt-6 mb-4 text-3xl'>How We Are Best For Travel !</h1>
-          <p className='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus incidunt aperiam vel laboriosam odio officia, tenetur iure qui? Officiis placeat iste ratione perspiciatis rerum sed magni commodi pariatur reiciendis dicta molestiae dolor tenetur, dolorem minus exercitationem quod adipisci, ad tempore. Suscipit iste impedit soluta omnis laborum quisquam eveniet. Eos ipsam sed eligendi architecto libero doloremque nobis fugit, asperiores molestiae ullam nulla mollitia quidem maxime totam delectus itaque? Quisquam impedit, cum quo tempore at velit? Voluptate rerum possimus vel numquam perspiciatis sint adipisci, veritatis ullam placeat, repellat similique ea pariatur officiis laborum eligendi porro eos perferendis consectetur, et ex tempore. Facilis, incidunt? Libero nostrum tempore repellat iste assumenda nulla doloremque similique sequi, facere tempora voluptates enim aspernatur quod voluptatibus tenetur dicta, nesciunt explicabo! Veritatis, officia a!</p>
+          <p className='text-gray-500'>At Travel Nest, we believe that travel is more than just reaching a destination — it's about experiencing every heartbeat of the journey. Nestled in the heart of the Himalayas, Uttarakhand offers a soulful blend of adventure, spirituality, and natural beauty, and we’re here to help you discover it like never before.
+
+Whether you're craving the serene stillness of Auli’s snow-covered slopes, the spiritual calm of Rishikesh and Haridwar, the untamed wilderness of Jim Corbett, or the emerald lakes of Nainital and Bhimtal — Travel Nest curates personalized experiences that connect you deeply with the land, culture, and people.
+
+Our expert guides, handpicked stays, and authentic itineraries ensure you don’t just see Uttarakhand — you feel it. Every path you walk, every meal you savor, and every sunrise you witness with us becomes a cherished memory.
+
+With Travel Nest, you're not just a tourist — you're a traveler discovering your own story in the heart of the Himalayas.</p>
         </div>
         <div className='flex-1'>
           <div className='bg-white p-6 rounded-lg shadow-md'>

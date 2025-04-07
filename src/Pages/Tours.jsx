@@ -1,20 +1,21 @@
 import React from 'react'
 import TopBanner from '../Components/TopBanner'
-import Bali from '../assets/Bali.jpg'
-import Paris from '../assets/Paris.jpg'
-import Tokyo from '../assets/Tokyo.jpg'
-import India from '../assets/India.jpg'
-import Venice from '../assets/Venice.jpg'
+import Uttarkashi from '../assets/Uttarkashi.jpg'
+import Rudraprayag from '../assets/Rudraprayag.jpg'
+import Chamoli from '../assets/Chamoli.jpg'
+import Pauri from '../assets/Pauri.jpg'
+import Nainital from '../assets/Nainital.jpg'
+import Almora from '../assets/Almora.jpg'
 import { Clock, Star } from 'lucide-react'
 
 const Tours = () => {
   const destinationJson = [
-    { name: 'Baliya', img: Bali, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
-    { name: 'Venice', img: Venice, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
-    { name: 'Tokyo', img: Tokyo, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
-    { name: 'India', img: India, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
-    { name: 'Paris', img: Paris, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
-    { name: 'Tokyo', img: Tokyo, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
+    { name: 'Uttarkashi', img: Uttarkashi, time: '5 Days - 4 Nights', star: '5 (30 reviews)', price: '29,999',dis:"Experience the beauty and culture of" },
+    { name: 'Rudraprayag', img: Rudraprayag, time: '5 Days - 4 Nights', star: '4.5 (15 reviews)', price: '21,000', dis:"Discover the divine charm of" },
+    { name: 'Chamoli', img: Chamoli, time: '5 Days - 4 Nights', star: '4 (25 reviews)', price: '16,500', dis:"Experience the beauty and culture of" },
+    { name: 'Pauri Garhwal', img: Pauri, time: '5 Days - 4 Nights', star: '5 (30 reviews)', price: '10,000', dis:"Soak in the tranquil vibes of" },
+    { name: 'Nainital', img: Nainital, time: '5 Days - 4 Nights', star: '3.5 (15 reviews)', price: '16,000', dis:"Step into the cultural cradle of" },
+    { name: 'Almora,', img: Almora, time: '5 Days - 4 Nights', star: '4 (20 reviews)', price: '25,000', dis:"Witness the untouched splendor of" },
   ]
   return (
     <>
@@ -39,9 +40,9 @@ const Tours = () => {
                       <p className='text-gray-500 flex items-center gap-1 text-sm mb-1'><Clock width={15} />{destination.time}</p>
                       <h3 className='text-xl font-bold mb-2'>{destination.name}</h3>
                       <p className='flex gap-1 items-center'><Star width={20} fill='red' />{destination.star}</p>
-                      <p className='text-gray-600 mb-4 mt-2'>Experience the beauty and culture of {destination.name}</p>
+                      <p className='text-gray-600 mb-4 mt-2'>{destination.dis} {destination.name}</p>
                       <div className='flex gap-4'>
-                        <button className='px-3 py-2 bg-red-500 rounded-md text-white'>${destination.price}</button>
+                        <button className='px-3 py-2 bg-red-500 rounded-md text-white'>&#8377;{destination.price}</button>
                         <button className='px-3 py-2 bg-black rounded-md text-white'>Learn More</button>
                       </div>
                     </div>

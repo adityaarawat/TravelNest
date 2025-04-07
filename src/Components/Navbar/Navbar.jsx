@@ -13,7 +13,7 @@ const Navbar = () => {
             <div className='bg-transparent/75 px-4 fixed w-full z-50 top-0 py-2'>
                 <div className='max-w-7xl mx-auto py-2 px-5 flex bg-transparent justify-between items-center'>
                     <Link to='/'>
-                    <h1 className='text-2xl text-white font-bold'>Trip<span className='text-red-500'>Buddy</span></h1>
+                    <h1 className='text-2xl text-white font-bold'>Travel<span className='text-red-500'> Nest</span></h1>
                     </Link>
                     <div className='flex items-center gap-5'>
                         <nav className='hidden md:flex gap-7'>

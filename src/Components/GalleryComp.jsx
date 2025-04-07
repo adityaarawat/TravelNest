@@ -32,31 +32,31 @@ const GalleryComp = () => {
                 plugins={[lgThumbnail, lgZoom]}
             >
                 <a href="/India.jpg">
-                    <img alt="img1" src="/India.jpg" />
+                    <img alt="img1" src="/uk01.jpg" />
                 </a>
                 <a href="/Hero1.jpg">
-                    <img alt="img2" src="/Hero1.jpg" />
+                    <img alt="img2" src="/uk02.jpg" />
                 </a>
                 <a href="/Hero2.jpg">
-                    <img alt="img2" src="/Hero2.jpg" />
+                    <img alt="img2" src="/uk03.jpg" />
                 </a>
                 <a href="/Hero3.jpg">
-                    <img alt="img2" src="/Hero3.jpg" />
+                    <img alt="img2" src="/uk04.jpg" />
                 </a>
                 <a href="/Hero4.jpg">
-                    <img alt="img2" src="/Hero4.jpg" />
+                    <img alt="img2" src="/uk05.jpg" />
                 </a>
                 <a href="/Bali.jpg">
-                    <img alt="img2" src="/Bali.jpg" />
+                    <img alt="img2" src="/uk06.jpg" />
                 </a>
                 <a href="/Venice.jpg">
-                    <img alt="img2" src="/Venice.jpg" />
+                    <img alt="img2" src="/uk07.jpg" />
                 </a>
                 <a href="/Paris.jpg">
-                    <img alt="img2" src="/Paris.jpg" />
+                    <img alt="img2" src="/uk08.jpg" />
                 </a>
                 <a href="/Tokyo.jpg">
-                    <img alt="img2" src="/Tokyo.jpg" />
+                    <img alt="img2" src="/uk09.jpg" />
                 </a>
             </LightGallery>
         </div>

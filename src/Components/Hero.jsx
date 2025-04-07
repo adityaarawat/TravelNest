@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import banner1 from '../assets/Hero1.jpg'
-import banner2 from '../assets/Hero3.jpg'
+import banner2 from '../assets/Hero2.jpg'
 import banner3 from '../assets/Hero4.jpg'
 import { Search } from 'lucide-react';
 
@@ -29,7 +29,7 @@ const Hero = () => {
                <div className='relative max-w-7xl mx-auto'>
                 <div className='flex h-[650px] justify-center items-center lg:pt-0 pt-20'>
                     <div className='flex flex-col space-y-8 justify-center items-center text-center px-5 md:px-0'>
-                        <h1 className='text-white font-bold text-4xl lg:text-6xl'>Discover Your Next Adventure</h1>
+                        <h1 className='text-white font-bold text-4xl lg:text-6xl'>Elegance in every space</h1>
                         <p className='text-white lg:text-lg lg:w-[700px]'>Explore breathtaking destinations, create unforgettable memories and embark on the journey of a lifetime.</p>
                         <button className='bg-red-500 px-3 py-2 text-white rounded-md font-semibold'>Start Exploring</button>
                     </div>
@@ -83,11 +83,12 @@ const Hero = () => {
                     <label htmlFor="" className='flex font-semibold gap-1 items-center'><Search className='w-4 h-4'/>Location</label>
                     <select name="" id="" className='border border-gray-300 rounded-sm p-1'>
                         <option value="">Select Options</option>
-                        <option value="">Bali</option>
-                        <option value="">India</option>
-                        <option value="">Tokyo</option>
-                        <option value="">Venice</option>
-                        <option value="">Paris</option>
+                        <option value="">Uttarkashi</option>
+                        <option value="">Rudraprayag</option>
+                        <option value="">Chamoli</option>
+                        <option value="">Pauri Garhwal</option>
+                        <option value="">Nainital</option>
+                        <option value="">Almora</option>
                     </select>
                 </div>
                 <div className='flex flex-col gap-2'>
@@ -102,11 +103,11 @@ const Hero = () => {
                     <label htmlFor="" className='flex font-semibold gap-1 items-center'><Search className='w-4 h-4'/>Guest</label>
                     <select name="" id="" className='border border-gray-300 rounded-sm p-1'>
                         <option value="">Select Options</option>
-                        <option value="">2 Guest 1 Children</option>
-                        <option value="">2 Guest 1 Children</option>
-                        <option value="">2 Guest 1 Children</option>
-                        <option value="">2 Guest 1 Children</option>
-                        <option value="">2 Guest 1 Children</option>
+                        <option value="1A1C">1 Guest, 1 Child</option>
+<option value="2A1C">2 Guests, 1 Child</option>
+<option value="2A2C">2 Guests, 2 Children</option>
+<option value="3A1C">3 Guests, 1 Child</option>
+<option value="4A2C">4 Guests, 2 Children</option>
                     </select>
                 </div>
             </div>
